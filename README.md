@@ -74,3 +74,14 @@ También habría incluido la posiblidad de mantener objetos en el inventario y p
 Finalmente, hice un último intento con ChatGPT, solicitando más interacción con el usuario, y la posibilidad de utilizar objetos a gusto propio. Aunque me otorgó lo que solicité, tenía varias fallas destacablas, como el hecho de que al obtener un nuevo objeto, se presentaba como el único disponible en el inventario, deshaciendose de los demás. También, el inicio fue mucho más frio y con menos humanidad, solicitando solamente un ingreso de nombre, sin ninguna bienvenida ni juego de rol.
 
 Cabe destacar que a la hora de recibir estas soluciones, la más fácil de armar o "importar" fueron las generadas por Chatgpt, ya que cada archivo incluía los "imports" necesarios de cada librería, en cambio, DeepSeek fallaba en este áspecto, obligando al usuario a introducir estas líneas de código manualmente.
+
+Los códigos fueron bastante cortos a mi parecer, el juego suele terminar al encontrar 8 páginas, pero las manejadas en estas soluciones no superan las 4.
+
+Los prompts utilizados: 
+
+CHATGPT, primer intento, sin temática especificada: hola chat gpt, puedes generar un código que resuelva esta asignación: *asignación incluida en el README*
+CHATGPT, segundo intento, inspirado en Slenderman: hola chat gpt, puedes generar un código, inspirado en Slenderman, que resuelva esta asignación: *asignación incluida en el README*
+CHATGPT, último intento, solicitando mayor interacción y manejo de objetos en el inventario: hola chat gpt, puedes generar un código, inspirado en Slenderman, que permita distinto tipos de inputs (ingresos del usuario), y que entregue la posibilidad de interactuar con objetos en el inventario a deseo del usuario. que resuelva esta asignación: *asignación incluida en el README*
+
+DeepSeek, primer intento, sin temática especificada: hola deepseek, puedes realizar un código que resuelva esta asignación: *asignación incluida en el README*
+DeepSeek, segundo intento, inspirado en Slenderman: hola deepseek, puedes realizar un código, inspirado en Slenderman que resuelva esta asignación: *asignación incluida en el README* - devuelve código incompleto
